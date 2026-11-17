@@ -23,7 +23,7 @@
 
 ## 下载与安装
 
-1. 从 [Releases](https://github.com/WantHappy2333/xingleme/releases/latest) 下载 `醒了么-x.y.z.apk`。
+1. 从 [Releases](https://github.com/WantHappy2333/xingleme/releases/latest) 下载 `xingleme-x.y.z.apk`。
 2. 在手机上允许“安装未知来源应用”后安装。
 3. 打开 App，按引导开启无障碍服务。
 4. 点「开始守夜」，允许通知；建议允许电池优化白名单。
