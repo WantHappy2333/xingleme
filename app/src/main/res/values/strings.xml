@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">醒了么</string>
+    <string name="app_tagline">熬夜守夜人 · 困了就停</string>
+
+    <string name="hero_status_idle">守夜未开始</string>
+    <string name="hero_status_running">守夜中</string>
+    <string name="hero_status_alert">正在叫醒你</string>
+    <string name="hero_label_countdown">距离叫醒你</string>
+    <string name="hero_label_idle">准备开始</string>
+    <string name="hero_status_waiting">等待时段</string>
+    <string name="hero_label_waiting">守夜时段</string>
+    <string name="hero_sub_waiting">将在 %1$s 自动开始守夜</string>
+    <string name="hero_session_waiting">时段 %1$s</string>
+    <string name="hero_alert_label">该动一下了</string>
+    <string name="hero_alert_sub">点一下确认你醒着，倒计时会重新开始</string>
+    <string name="hero_time_alert">醒醒</string>
+    <string name="hero_time_idle">早点睡</string>
+    <string name="hero_idle_sub">设置好节奏，点一下开始守夜</string>
+    <string name="hero_running_sub">屏幕亮着 · 最近操作 %1$s</string>
+    <string name="hero_session">已守夜 %1$s</string>
+    <string name="hero_threshold_hint">超过 %1$s 没操作就提醒</string>
+    <string name="start_guardian">开始守夜</string>
+    <string name="stop_guardian">停止守夜</string>
+
+    <string name="section_cadence">检测节奏</string>
+    <string name="section_cadence_sub">两个数字，决定什么时候叫醒你</string>
+    <string name="label_check_interval">检查频率</string>
+    <string name="label_threshold">静止阈值</string>
+    <string name="cadence_hint">超过阈值没有触摸屏幕，就会触发提醒。检测到真实触屏后，倒计时会重新开始；通知、弹窗等系统变化不算操作。</string>
+    <string name="interval_value">每 %1$s</string>
+    <string name="threshold_value">%1$s</string>
+    <string name="chip_15s">15 秒</string>
+    <string name="chip_30s">30 秒</string>
+    <string name="chip_1m">1 分钟</string>
+    <string name="chip_2m">2 分钟</string>
+    <string name="chip_custom">自定义</string>
+    <string name="chip_3m">3 分钟</string>
+    <string name="chip_5m">5 分钟</string>
+    <string name="chip_10m">10 分钟</string>
+
+    <string name="section_alert">怎么叫醒你</string>
+    <string name="section_alert_sub">可以组合使用，至少保留一种</string>
+    <string name="vibrate_title">震动唤醒</string>
+    <string name="vibrate_sub">贴着手心，持续震到确认</string>
+    <string name="sound_title">响铃提醒</string>
+    <string name="sound_sub">用铃声把你从困意里拉回来</string>
+    <string name="popup_title">弹窗确认</string>
+    <string name="popup_sub">直接盖在正在用的应用上</string>
+    <string name="label_vibration_strength">震动强度</string>
+    <string name="vibration_light">轻柔</string>
+    <string name="vibration_medium">适中</string>
+    <string name="vibration_strong">强劲</string>
+    <string name="label_volume">铃声音量</string>
+    <string name="volume_percent">%1$d%%</string>
+    <string name="ringtone_title">提醒铃声</string>
+    <string name="ringtone_change">更换</string>
+    <string name="test_ringtone">试听铃声</string>
+    <string name="stop_test">停止试听</string>
+    <string name="ringtone_default">系统默认闹钟</string>
+    <string name="ringtone_unknown">未知铃声</string>
+
+    <string name="section_theme">提神配色</string>
+    <string name="section_theme_sub">亮色才提神，选一组喜欢的</string>
+    <string name="theme_note">点击气泡切换，立即生效</string>
+    <string name="theme_lime">青柠气泡</string>
+    <string name="theme_mint">薄荷清醒</string>
+    <string name="theme_orange">橙子汽水</string>
+    <string name="theme_blue">蓝莓冰沙</string>
+    <string name="theme_cherry">樱桃苏打</string>
+
+    <string name="section_permission">守夜权限</string>
+    <string name="section_permission_sub">权限给足，守夜才稳</string>
+    <string name="permission_accessibility">无障碍服务</string>
+    <string name="permission_accessibility_sub">只识别你的触屏操作，必须开启</string>
+    <string name="permission_notification">通知权限</string>
+    <string name="permission_notification_sub">显示守夜状态和提醒</string>
+    <string name="permission_battery">电池优化</string>
+    <string name="permission_battery_sub">防止系统提前结束守夜</string>
+    <string name="permission_help">为什么需要这些权限？</string>
+    <string name="permission_on">已开启</string>
+    <string name="permission_off">未开启</string>
+    <string name="permission_optional">可选</string>
+    <string name="permission_advice">建议开启</string>
+    <string name="permission_allowed">已允许</string>
+    <string name="permission_banner_title">还差一步：开启无障碍服务</string>
+    <string name="permission_banner_sub">没有它，「醒了么」无法知道你还在不在触摸屏幕</string>
+    <string name="go_enable">去开启</string>
+
+    <string name="footer">息屏提醒可单独开启 · 所有设置只保存在本机 · 不联网、不上传</string>
+    <string name="privacy_badge">无网络权限 · 数据不出手机</string>
+
+    <string name="toast_need_accessibility">请先开启无障碍服务，才能识别屏幕操作</string>
+    <string name="toast_started">守夜开始，去忙你的吧</string>
+    <string name="toast_started_waiting">守夜已开启，将在 %1$s 自动开始</string>
+    <string name="toast_stopped">已停止守夜</string>
+    <string name="toast_keep_one">至少保留一种提醒方式</string>
+    <string name="toast_ringtone_saved">铃声已更新</string>
+    <string name="toast_battery_ok">已允许后台运行</string>
+    <string name="toast_permission_granted">权限已开启</string>
+    <string name="toast_custom_saved">已保存自定义节奏</string>
+    <string name="toast_accessibility_lost">无障碍服务已关闭，守夜已停止</string>
+    <string name="toast_screen_off_on">息屏提醒已开启，会增加一些耗电</string>
+    <string name="dialog_screen_off_reliability_title">让息屏提醒更可靠</string>
+    <string name="dialog_screen_off_reliability_message">息屏后系统更容易清理后台服务。把「醒了么」加入电池优化白名单，可以显著降低到点不提醒的概率。\n\n如果同时关闭了震动和铃声，息屏后只能通过通知提醒，建议至少保留一种声音或震动。</string>
+    <string name="toast_acknowledged">已确认清醒，继续守夜</string>
+    <string name="toast_schedule_all_day">开始与结束相同，将全天守夜</string>
+    <string name="toast_notification_denied">通知未开启，可稍后在「守夜权限」里打开</string>
+    <string name="toast_notification_enabled">通知已开启</string>
+    <string name="toast_test_failed">这段铃声暂时无法播放，请换一个</string>
+    <string name="dialog_permission_settings">去系统设置</string>
+
+    <string name="dialog_accessibility_title">开启无障碍，才能看见你的操作</string>
+    <string name="dialog_accessibility_message">Android 不允许普通应用读取其他应用的触摸。开启「醒了么」的无障碍服务后，它只接收“手指触摸屏幕”这一种事件，用来判断你是否还在操作屏幕；收到通知、弹窗出现、页面自动切换都不算操作。\n\n它不会读取屏幕文字、聊天内容，也不会截图或上传任何数据。</string>
+    <string name="dialog_accessibility_confirm">去开启</string>
+    <string name="dialog_later">先等等</string>
+    <string name="dialog_notification_title">允许通知，守夜状态才看得见</string>
+    <string name="dialog_notification_message">「醒了么」用一条安静的常驻通知显示守夜状态；当提醒触发、弹窗被系统限制时，也会通过通知让你确认。\n\nAndroid 13 及以上需要你手动允许通知。</string>
+    <string name="dialog_notification_confirm">允许通知</string>
+    <string name="dialog_start_anyway">仍然开始</string>
+    <string name="dialog_battery_title">让守夜扛住后台清理</string>
+    <string name="dialog_battery_message">部分手机会在后台清理应用，导致守夜中断。把「醒了么」加入电池优化白名单，可以显著提高稳定性。\n\n这个权限是可选的，不影响基础功能。</string>
+    <string name="dialog_battery_confirm">去设置</string>
+    <string name="dialog_permission_title">这些权限用来做什么？</string>
+    <string name="dialog_permission_message">• 无障碍服务：只识别“手指触摸屏幕”这一种事件，用来判断你是否还在操作屏幕。通知、弹窗、应用切换等系统变化不会被当成操作；不会读取屏幕内容、输入文字或截图。\n\n• 通知权限：显示常驻守夜状态，并在需要时发出提醒通知。\n\n• 电池优化白名单：防止系统在后台清理守夜服务。可选。息屏提醒开启时，系统可能显示耗电提示。\n\n若无障碍开关打开后自动弹回：Android 13 及以上请到 应用信息 → 右上角 ⋮ → 允许受限设置，再重新开启。\n\n「醒了么」没有联网权限，所有设置和记录只保存在本机。</string>
+    <string name="dialog_permission_confirm">我知道了</string>
+    <string name="dialog_welcome_title">今晚，别熬太晚</string>
+    <string name="dialog_welcome_message">「醒了么」会安静守着。屏幕亮着却很久没操作，就用震动、铃声和确认弹窗把你叫醒。\n\n开始前需要开启无障碍服务；通知和电池优化可以稍后再给。</string>
+    <string name="dialog_welcome_confirm">开始设置</string>
+    <string name="dialog_welcome_later">先逛逛</string>
+    <string name="dialog_custom_title">自定义检测节奏</string>
+    <string name="dialog_custom_interval_title">自定义检查频率</string>
+    <string name="dialog_custom_threshold_title">自定义静止阈值</string>
+    <string name="dialog_custom_interval_error">请输入 5–300 之间的秒数</string>
+    <string name="dialog_custom_threshold_error">请输入 10–3600 之间的秒数</string>
+    <string name="dialog_custom_interval_hint">检查频率（秒）</string>
+    <string name="dialog_custom_threshold_hint">静止阈值（秒）</string>
+    <string name="dialog_custom_range">范围：检查频率 5–300 秒，静止阈值 10–3600 秒</string>
+    <string name="dialog_save">保存</string>
+    <string name="dialog_cancel">取消</string>
+
+    <string name="alert_badge">醒了么 · 提神提醒</string>
+    <string name="alert_title">醒醒，动一下</string>
+    <string name="alert_idle">你已经 %1$s 没碰屏幕了</string>
+    <string name="alert_tips">喝口水 · 伸个懒腰 · 看看远处</string>
+    <string name="alert_ack">我醒了，继续守夜</string>
+    <string name="alert_stop">结束今晚守夜</string>
+    <string name="alert_bottom_hint">确认后重新开始计时</string>
+
+    <string name="notif_channel_guardian">守夜状态</string>
+    <string name="notif_channel_guardian_desc">一条安静的常驻通知，显示守夜是否运行</string>
+    <string name="notif_channel_alert">提神提醒</string>
+    <string name="notif_channel_alert_desc">长时间没有操作屏幕时的叫醒通知</string>
+    <string name="notif_guardian_title">守夜中 · 别熬太晚</string>
+    <string name="notif_screen_off_title">息屏守夜中 · 到点会叫你</string>
+    <string name="notif_screen_off_text">已开启息屏提醒 · 超过 %1$s 没触屏就提醒</string>
+    <string name="notif_guardian_text">每 %1$s 检查一次 · 超过 %2$s 没操作就提醒</string>
+    <string name="notif_stop">停止</string>
+    <string name="notif_alert_title">醒醒，该动一下了</string>
+    <string name="notif_alert_text">已经 %1$s 没碰屏幕，点一下确认你醒着</string>
+    <string name="notif_ack">我醒了</string>
+
+    <string name="accessibility_label">醒了么 · 屏幕操作检测</string>
+    <string name="accessibility_description">只识别手指触摸屏幕这一种事件，用来判断你是否还在操作；通知、弹窗和页面切换不算操作。不读取屏幕内容。</string>
+    <string name="cd_logo">醒了么标志</string>
+    <string name="cd_theme">选择提神配色</string>
+    <string name="cd_more">更多</string>
+    <string name="cd_status">守夜状态</string>
+    <string name="cd_alert_icon">提醒</string>
+
+    <string name="time_just_now">刚刚</string>
+    <string name="time_seconds_ago">%1$d 秒前</string>
+    <string name="time_minutes_ago">%1$d 分钟前</string>
+    <string name="duration_seconds">%1$d 秒</string>
+    <string name="duration_minutes">%1$d 分钟</string>
+    <string name="duration_minutes_seconds">%1$d 分 %2$d 秒</string>
+    <string name="duration_hours_minutes">%1$d 小时 %2$d 分</string>
+
+    <string name="unknown_error">出了点小问题，请再试一次</string>
+    <string name="ringtone_picker_title">选择提醒铃声</string>
+
+    <string name="screen_off_title">息屏也提醒</string>
+    <string name="screen_off_sub">屏幕熄灭后继续计时并叫你，稍耗电</string>
+
+    <string name="section_schedule">守夜时段</string>
+    <string name="section_schedule_sub">只在选择的时间里守夜，支持跨午夜</string>
+    <string name="schedule_title">启用守夜时段</string>
+    <string name="schedule_sub">到点自动开始，过点自动暂停</string>
+    <string name="schedule_start">开始</string>
+    <string name="schedule_to">至</string>
+    <string name="default_start_time">22:00</string>
+    <string name="default_end_time">06:00</string>
+    <string name="schedule_end">结束</string>
+    <string name="schedule_note">支持跨午夜，例如 22:00 – 06:00。开启息屏提醒后，时段内熄屏也会继续守夜。</string>
+    <string name="schedule_status_waiting">当前不在时段内，等待 %1$s 开始</string>
+    <string name="schedule_status_active">当前在守夜时段内</string>
+    <string name="schedule_status_disabled">未启用；点击「开始守夜」后会一直守夜</string>
+    <string name="schedule_status_ready_active">当前在守夜时段内；开始守夜后会正常计时</string>
+    <string name="schedule_status_ready_waiting">当前不在时段内；开始守夜后会等待 %1$s</string>
+    <string name="dialog_pick_start">选择开始时间</string>
+    <string name="dialog_pick_end">选择结束时间</string>
+
+    <string name="notif_waiting_title">守夜待机 · 等待时段</string>
+    <string name="notif_waiting_text">将在 %1$s 开始 · 时段 %2$s</string>
+    <string name="notif_schedule_sub">守夜时段 %1$s</string>
+
+    <string name="dialog_accessibility_neutral">打开应用信息</string>
+    <string name="accessibility_still_off_title">无障碍没有保持开启？</string>
+    <string name="accessibility_still_off_message">如果系统设置里的开关刚打开就自己弹回，通常是 Android 13 及以上对侧载应用的「受限设置」保护，或手机厂商的后台限制。\n\n1. 打开 设置 → 应用 → 醒了么 → 右上角 ⋮ → 允许受限设置（部分机型叫「允许受限制的设置」）。\n2. 再回到 设置 → 无障碍 → 已安装的服务，重新打开「醒了么 · 屏幕操作检测」。\n3. 如果手机有「自启动 / 后台运行」开关，也请允许。\n\n这只是系统安全限制，不是 App 崩溃。开启后回到这里会自动识别。</string>
+    <string name="open_app_info">打开应用信息</string>
+</resources>

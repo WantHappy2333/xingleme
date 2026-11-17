@@ -1,0 +1,33 @@
+# Gradle / Android build outputs
+.gradle/
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+.kotlin/
+local.properties
+
+# Signing material must never be committed
+keystore.properties
+keystore/
+*.jks
+*.keystore
+*.p12
+*.pfx
+
+# Release binaries are distributed via GitHub Releases, not source commits
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Logs / temp
+*.log
+*.hprof
